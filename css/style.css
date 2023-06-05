@@ -66,3 +66,7 @@ section {
     background-color: #e5ebee;
 }
 
+.informational-text {
+    color: var(--dark);
+    font-weight: 500;
+}

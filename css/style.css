@@ -61,12 +61,44 @@ a {
 }
 
 section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #e5ebee;
 }
+
+
 
 .informational-text {
     color: var(--dark);
     font-weight: 500;
 }
+
+  #carouselSection {
+    /* Adjust the carousel height */
+    height: 1250px;
+    width: 2000px;
+    padding: auto;
+    margin: auto;
+  }
+
+  .carousel-inner {
+    /* Center the carousel content vertically */
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .card-horizontal {
+    /* Adjust the card's width */
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-indicators {
+    /* Position the indicators at the bottom */
+    display: none;
+  }
+
+  #services {
+    background-color: #e5ebee;
+  }
+  

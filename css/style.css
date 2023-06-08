@@ -68,6 +68,7 @@ a {
 section {
   padding-top: 60px;
   padding-bottom: 0px;
+  overflow-x: hidden;
   background-color: #e5ebee;
 }
 
@@ -79,7 +80,7 @@ section {
 #carouselSection {
   /* Adjust the carousel height */
   height: 1250px;
-  width: 2000px;
+  width: 100%;
 }
 
 .carousel-inner {
@@ -213,3 +214,19 @@ section {
   background-color: #8bddff;
   color: #fff;
 }
+
+#aboutUs {
+  background-color: #8bddff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#aboutUs .card {
+  box-shadow: var(--box-shadow);
+  display: flex;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+

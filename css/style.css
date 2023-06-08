@@ -67,7 +67,7 @@ a {
 
 section {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   background-color: #e5ebee;
 }
 
@@ -166,4 +166,65 @@ section {
     text-align: center;
   }
 }
+
+#bookingSection {
+  background-color: #e5ebee;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.breadcrumb-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.breadcrumb-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.breadcrumb-item span {
+  color: #21252f;
+  font-weight: bold;
+}
+
+.breadcrumb-box {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #a8d8b9;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #e5ebee;
+  color: #333;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #8bddff;
+  color: #fff;
+}
+
 

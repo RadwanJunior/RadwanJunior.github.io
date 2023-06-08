@@ -233,6 +233,8 @@ section {
 footer {
   background-color: #f8f8f8;
   padding: 20px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 footer h4 {
@@ -267,3 +269,26 @@ footer p {
 .social-media a:hover {
   color: #777;
 }
+
+/* Styles for the back-to-top button */
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #555;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top-btn:hover {
+  background-color: #333;
+}
+

@@ -230,3 +230,40 @@ section {
   overflow: hidden;
 }
 
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+}
+
+footer h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+.social-media {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.social-media a {
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #777;
+}

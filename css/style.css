@@ -204,27 +204,12 @@ section {
 .breadcrumb-box {
   display: inline-block;
   padding: 8px 12px;
-  background-color: #a8d8b9;
-  color: #ffffff;
+  background-color: #e5ebee;
+  color: #333;
   border-radius: 4px;
 }
 
-.tab-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.tab {
-  padding: 10px 20px;
-  background-color: #e5ebee;
-  color: #333;
-  cursor: pointer;
-}
-
-.tab.active {
+.breadcrumb-item.active .breadcrumb-box {
   background-color: #8bddff;
   color: #fff;
 }
-
-

@@ -292,3 +292,6 @@ footer p {
   background-color: #333;
 }
 
+.scroll-target {
+  scroll-margin-top: 60px;
+}

@@ -6,7 +6,7 @@ var rebookButton = document.getElementById('rebookButton');
 // Attach an event listener to the form submit event
 form.addEventListener('submit', function(event) {
     // Prevent the form from submitting (and the page from refreshing)
-    event.preventDefault();
+event.preventDefault();
 
     // Get all the values from the form
     var firstName = form.elements.firstName.value;
@@ -61,4 +61,3 @@ rebookButton.addEventListener('click', function() {
     // Reset the form
     form.reset();
 });
-

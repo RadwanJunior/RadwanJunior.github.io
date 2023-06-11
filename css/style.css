@@ -348,9 +348,9 @@ label {
 }
 
 #confirmationMessage {
-  background-color: #e5ebee;
-  color: #00334e;  /* this is a dark blue color */
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 10px;
+    background-color: #e5ebee;
+    color: #00334e;  /* this is a dark blue color */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
 }
